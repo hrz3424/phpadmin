@@ -28,6 +28,26 @@
                     <button type="submit" class="btn btn-primary btn-lg btn-block">{:__('Sign in')}</button>
                 </div>
             </form>
+
+            <div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <a target="_blank" href="{:addon_url('third/index/connect',[':platform'=>'qq'])}" class="btn btn-block btn-info">
+                            <i class="fa fa-qq"></i> QQ登录
+                        </a>
+                    </div>
+                    <div class="col-xs-4">
+                        <a target="_blank" href="{:addon_url('third/index/connect',[':platform'=>'wechat'])}" class="btn btn-block btn-success">
+                            <i class="fa fa-wechat"></i> 微信登录
+                        </a>
+                    </div>
+                    <div class="col-xs-4">
+                        <a target="_blank" href="{:addon_url('third/index/connect',[':platform'=>'weibo'])}" class="btn btn-block btn-danger">
+                            <i class="fa fa-weibo"></i> 微博登录
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
